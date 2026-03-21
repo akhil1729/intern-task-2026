@@ -149,7 +149,7 @@ pytest tests/test_feedback_integration.py -v
 2. Replace the sample implementation with your own
 3. Make sure `docker compose up` works and passes the health check
 4. Push to your fork
-5. **Fill out the [submission form](https://forms.gle/Nb2aqYvtY12efX2bA)** with your name, email, and the link to your fork
+5. **Fill out the [submission form](https://forms.gle/ukcypgRiMgGhvnBh8)** with your name, email, and the link to your fork
 
 **Use the same email you applied with on Handshake.** This is how we match your submission to your application.
 
