@@ -4,13 +4,16 @@ import logging
 import time
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, Request
-from fastapi.responses import JSONResponse
 
-from app.feedback import get_feedback
-from app.models import FeedbackRequest, FeedbackResponse
-
+# Load .env BEFORE importing app modules so that config.py
+# can read API keys and settings via os.getenv().
 load_dotenv()
+
+from fastapi import FastAPI, Request  # noqa: E402
+from fastapi.responses import JSONResponse  # noqa: E402
+
+from app.feedback import get_feedback  # noqa: E402
+from app.models import FeedbackRequest, FeedbackResponse  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
