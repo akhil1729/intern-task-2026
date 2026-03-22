@@ -1,1 +1,1 @@
-"""Language Feedback API -- sample submission for Pangea Chat intern task."""
+"""Language Feedback API — Pangea Chat intern task submission."""
